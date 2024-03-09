@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "me.sabitheotome.bouncy.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"DragonFireballEntityMixin",
+		"ProjectileEntityMixin",
+		"SnowballEntityMixin",
+		"EggEntityMixin",
+		"ShulkerBulletEntityMixin",
+		"WitherSkullEntityMixin",
+		"FireballEntityMixin",
+		"SmallFireballEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

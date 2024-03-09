@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "bouncy",
+	"version": "${version}",
+	"name": "Bouncy Fabric Mod",
+	"description": "Projectile goes boing boing.",
+	"authors": [
+		"SabiTheOtome",
+		"Potatoes9411"
+	],
+	"contact": {
+		"sources": "https://github.com/sabitheotome/bouncy-fabric",
+		"issues": "https://github.com/sabitheotome/bouncy-fabric/issues"
+	},
+	"license": "GPL-v3",
+	"icon": "assets/bouncy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.sabitheotome.bouncy.Main"
+		]
+	},
+	"mixins": [
+		"bouncy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"PotatoesBouncy": "*"
+	}
+}

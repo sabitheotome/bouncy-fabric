@@ -1,2 +1,3 @@
 # bouncy-fabric
-Repository of the Bouncy Fabric Mod
+
+Repository of the Bouncy Fabric Mod;
